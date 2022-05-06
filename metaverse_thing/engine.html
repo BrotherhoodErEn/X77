@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOREM LOREM LOREM LOREM  </title>
+    <link rel="stylesheet" href="engine2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+
+        <div class="nav">
+            <div class="logo">
+                <p>Lorem verse</p>
+                <img src="Press_the_Attack_rune.webp">
+            </div>
+            <div class="next"><i class="fas fa-chevron-right"></i></div>
+            <div class="watch">&nbsp; CHECK OUT!</div>
+            <div class="play"><a href="https://www.google.com"><i class="fas fa-play-circle"></a></i></div>
+        </div>
+
+        <div class="middle-top-bar">
+            <!-- <ul>
+                <button><li class="title"><a href="#">Shop</a></li></button>
+               <button><li><a href="#">Movie</a></li></button> 
+                <li><a href="#">Trailer</a></li> -->
+            <!-- <button> <li><a href="#">How So?</a></li></button> 
+                <button><li><a href="#">Get Into</a></li></button> 
+            </ul> -->
+        </div>
+        <div class="left-bottom">
+            <p>DesIgned By EngIne&Eray  </p>
+        </div>
+
+        <div class="left-sidebar">
+            <h1 class="cinema">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            <!-- <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit vero corporis veniam, esse voluptatem
+                expedita, nemo ullam fugit ut deleniti nam perspiciatis non quaerat maxime possimus nulla quisquam
+                temporibus ratione?</p> -->
+            <p id="price">Lorem ipsum dolor sit amet consectetur</p>
+            <button class="btn"><a href="https://store.steampowered.com/app/438100/VRChat/">Get Into</a></button>
+        </div>
+
+        <!-- <div class="product">
+            <img src="20848.png" alt="supreme">
+        </div> -->
+        <div class="supremeSilk"></div>
+
+        <div class="media">
+            <ul>
+                <li><a href="https://tr.wikipedia.org/wiki/Mark_Zuckerberg"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.youtube.com/watch?v=kbDEojkAt9c"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/elonmusk"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/p/Ccq_AghrVA1/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://steamcommunity.com/id/ffurry26"><i class="fab fa-steam"></i></a></li>
+                <li><a href="https://www.twitch.tv/elraenn"><i class="fab fa-twitch"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        TweenMax.from(".logo", 1, {
+            delay: .4,
+            opacity: 0,
+            x: -20,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from(".right", .8, {
+            delay: 1,
+            width: 0,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from(".superemeSilk", 1, {
+            delay: 1.4,
+            opacity: 0,
+            x: -20,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from(".watch", 1, {
+            delay: 1.6,
+            opacity: 0,
+            y: -20,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from(".play", 1, {
+            delay: 2,
+            opacity: 0,
+            x: -20,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from(".left-bottom", 1, {
+            delay: 1.4,
+            opacity: 0,
+            x: -100,
+            ease: Expo.easyInOut
+        });
+        TweenMax.staggerFrom(".media ul li", 1, {
+            delay: 3,
+            opacity: 0,
+            y: 20,
+            ease: Power3.easyInOut
+        }, 0.08);
+        TweenMax.from(".middle-top-bar ul li", 1, {
+            delay: 2.2,
+            opacity: 0,
+            y: -20,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from(".cinema", 1, {
+            delay: 1,
+            opacity: 0,
+            x: -100,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from(".desc", 2, {
+            delay: 1.2,
+            opacity: 0,
+            x: -20,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from("#price", 2, {
+            delay: 1.4,
+            opacity: 0,
+            y: -20,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from(".btn", 2, {
+            delay: 1.8,
+            opacity: 0,
+            z: 0,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from(".product img", 2, {
+            delay: 2.5,
+            opacity: 0,
+            y: -200,
+            ease: Expo.easyInOut
+        });
+        TweenMax.from(".next", 2, {
+            delay: 2,
+            opacity: 0,
+            y: -20,
+            ease: Expo.easyInOut
+        });
+    </script>
+</body>
+
+</html>
